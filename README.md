@@ -21,9 +21,9 @@ start
 	if (age < 18)
 	if not 
 		if (age > 18) AND (age < 64) then
-		write("O", name, "is over age")
+		write("The", name, "is over age")
 		if no
-		write("O", name, "is elderly")
+		write("The", name, "is elderly")
 		end if
 	end if
 end
