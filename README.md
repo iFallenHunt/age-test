@@ -4,13 +4,13 @@ a conditional on whether you are underage or overage
 
 pseudocode-based structure 
 
-Algorithm Check_age
+    Algorithm Check_age
 
-var 
+    var 
 	name = character 
 	age = integer
 	
-start 
+    start
 	write("Type your name: ")
 	read(name)
 	write("Type your age: ")
@@ -18,7 +18,7 @@ start
 	
 
 	
-	if (age < 18)
+        if (age < 18)
 	if not 
 		if (age > 18) AND (age < 64) then
 		write("The", name, "is over age")
@@ -26,5 +26,5 @@ start
 		write("The", name, "is elderly")
 		end if
 	end if
-end
+    end
 
